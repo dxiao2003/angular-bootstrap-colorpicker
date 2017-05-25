@@ -568,7 +568,7 @@ angular.module('colorpicker.module', [])
             }
           }
 
-          colorpickerTemplate.find('button').on('click', function () {
+          colorpickerTemplate.find('button').on('mousedown click', function () {
             hideColorpickerTemplate();
           });
 
